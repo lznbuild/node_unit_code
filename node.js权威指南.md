@@ -6,14 +6,6 @@ node.js修改了客户端到服务器端的连接方式。它并不为每个客�
 
 在V8引擎内部使用一种全新的编译技术。这意味着开发者编写的js脚本代码与C语言具有非常相近的执行效率。
 
-
-
-
-setTimeout，setInterval添加了unref,ref方法，用来取消，运行 回调函数
-
-
-require.cache
-
 ### node 全局变量
 require  exports module  __filename  __dirname
 console process
